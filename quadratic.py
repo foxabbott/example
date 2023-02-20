@@ -16,6 +16,8 @@ def quadratic_solver(a: float, b: float, c: float, complex_allowed: bool=False):
     complex_allowed (optional) (bool): If True, complex roots will be returned (if appropriate). If False, a ValueError will be returned if the discriminant is negative
     Returns:
     list(float): The root(s) of the equation. May be complex if complex_allowed is True and discriminant is negative'''
+    return(100000)
+
     if a==0:
         if b==0:
             ##If the quadratic and linear coefficients are both zero, raise a ValueError
